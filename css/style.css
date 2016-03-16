@@ -1,0 +1,328 @@
+@font-face { 
+    font-family: 'Oswald'; 
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');    
+}
+@font-face {
+    font-family: 'Open Sans'; 
+    src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
+}
+
+body {
+    margin:0;
+    background: #F3E2A9;
+}
+
+p {
+    margin:0;
+    padding-bottom: 20px;
+}
+
+#fondo01 {
+    opacity: 0.1;
+}
+
+#logo_frente {
+    position: absolute;
+    z-index: 2;
+}
+
+#logo_frente p {
+    padding-top: 20px;
+    text-align: center;  
+}
+
+#middle-top {
+    position:relative;
+    background:#3B240B;
+    overflow:hidden;
+    margin:0;
+}
+
+#middle-top p {    
+    margin:0;
+}
+
+#middle-bot {
+    position:relative;
+    background:#F3E2A9;
+    margin:0;
+}
+
+#title_vers, #body_vers {
+    font-family: 'Open Sans';
+    text-align: left;
+    font-weight: bold;
+    color:#0B3861;
+}
+
+#title_vers {
+    font-size: 110%;
+}
+
+#body_vers {
+    font-size: 135%;
+}
+
+#icon_bible {
+    padding-top: 12%;
+    width:90%;
+    opacity:0.6;
+    -webkit-transition: padding 0.5s;
+    -moz-transition: padding 0.5s;
+    transition: padding 0.5s;
+}
+
+#icon_bible:hover {
+    padding-top: 6%;
+    opacity:1;
+}
+
+#menu1 {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu1 p {
+    margin:0;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    color:#0B3861;
+}
+
+#icon_menu {
+    position: fixed;
+    z-index: 12;
+    left:25px;
+    top:25px;
+    width: 60px;
+    height: 60px;
+}
+
+#icon_menu img {
+    width: 100%;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+#icon_menu img:hover {
+    opacity:1;
+}
+
+#main_menu {
+    position:fixed;
+    z-index: 12;
+    left:25px;
+    top:90px;
+    width:200px;
+    background: white;
+    border-radius: 5px;
+}
+
+#main_menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+    color:#0B3861;
+}
+
+#main_menu {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+#main_menu a:link {
+    text-decoration: none;
+    color: #0B3861;
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#main_menu a:visited {
+    text-decoration: none;
+    color: #0B3861;
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#main_menu a:hover {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #0B3861;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#boton_sesion {
+    position: fixed;
+    margin:0px;
+    padding: 0px;
+    z-index: 99;
+    right:-560px;
+    bottom:-4px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+#boton_sesion img {
+    width: 25%;
+}
+
+#boton_sesion:hover {
+    opacity: 1;
+}
+
+
+#space2, #space4, #space6 {
+    background: #F5F6CE;
+    position:absolute;
+}
+
+.footer {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60%;
+    padding: 10px;
+}
+
+#space2 li {
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    -webkit-transition: background, font-size 0.5s;
+    -moz-transition: background, font-size 0.5s;
+    transition: background, font-size 0.5s;
+}
+
+.mision_icon {
+    width:40%;
+    padding: 5%;
+    float:right;
+}
+
+.icon_agenda {
+    width:15%;
+    float:left;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 0px;
+    -webkit-transition: padding 0.5s;
+    -moz-transition: padding 0.5s;
+    transition: padding 0.5s;
+}
+
+.icon_agenda:hover {
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+#space3, #space5 {
+    background: #F3E2A9;
+    position: absolute;    
+}
+
+/* el contenido en general */
+.contenido {
+    width:85%;
+    margin: 0px auto;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-size: 150%;
+    text-align: justify;
+    display:block;
+    clear:both;
+    overflow:auto;
+}
+
+/* tamaño de las columnas*/
+.columna1 {
+    width:96%;
+    padding: 2%;
+    float: left;
+}
+.columna2 {
+    width:46%;
+    padding:2%;
+    float:left;
+}
+
+.columna4 {
+    width:23%;
+    padding: 1%;
+    float:left;
+}
+
+.columna5 {
+    width:18%;
+    padding: 1%;
+    float:left;
+}
+
+.columna6 {
+    width:14.6%;
+    padding: 1%;
+    float:left;
+}
+
+/* diferentes títulos*/
+.titulo1 {
+    text-align: left;
+    font-size: 300%;
+    font-family: 'Oswald', sans-serif;
+    color:#0B3861;
+}
+
+.titulo2 {
+    text-align: left;
+    font-size: 200%;
+    font-family: 'Oswald', sans-serif;
+    color:#0B3861;
+}
+
+.titulo3 {
+    text-align: left;
+    font-size: 133%;
+    font-family: 'Oswald', sans-serif;
+    color:#0B3861;
+}
+
+.titulo4 {
+    text-align: right;
+    font-size: 85%;
+    font-family: 'Oswald', sans-serif;
+    color:#0B3861;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+/* efectos para las fotos*/
+.efecto1 {
+    opacity:1;
+}
+
+.efecto1:hover {
+    opacity:0.9;
+}

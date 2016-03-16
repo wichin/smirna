@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="language" content="en"/>
+		<link rel="stylesheet" type="text/css" href="../css/campa.css"/>
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/campa.js"></script>
+		<script type="text/javascript" src="../js/jquery.cuenta-atras.js"></script>
+	</head>
+	<body>
+		<div id="menu_centro">
+			<img src="../images/icon01.png" class="iconos" id="icon1">
+			<img src="../images/icon02.png" class="iconos" id="icon2">
+			<img src="../images/icon03.png" class="iconos" id="icon3">
+		</div>
+		<div id="imagenes">
+			<img src="../images/text01.png" class="textos" id="text01">
+			<img src="../images/text02.png" class="textos" id="text02">
+			<img src="../images/text03.png" class="textos" id="text03">
+		</div>
+		<div class="reloj conteo1" title="NOS VAMOS DE CAMPA">05/13/2015 9:00</div>
+		<div class="reloj conteo2" title="NOS VAMOS DE CAMPA">08/15/2015 12:00</div>
+		<div class="reloj conteo3" title="NOS VAMOS DE CAMPA">11/24/2015 10:30</div>
+
+		<script type="text/javascript">
+			;$(function(){	
+				$('.reloj').cuentaAtras();
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,83 @@
+@font-face { 
+    font-family: 'Oswald'; 
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');    
+}
+@font-face {
+    font-family: 'Open Sans'; 
+    src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
+}
+
+body {
+    margin:0;
+    background: #81DAF5;
+}
+
+#barra_superior{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    background: #0B3861;
+}
+
+#barra_superior p {
+    margin: 0;
+    text-align: center;
+}
+
+#barra_superior img {
+    height: 130px;
+    padding-top: 5px;
+}
+
+#body_dev {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.descarga {
+    height: 40px;
+    background: #0B3861;
+}
+
+.descarga img {
+    height: 20px;
+    padding: 10px;
+    float: right;
+}
+
+.descarga p {
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+}
+
+.descarga a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans';
+}
+
+.descarga a:hover {
+    color: #81DAF5;
+}
+
+.encabezado img {
+    width: 100%;
+    margin:0;
+}
+
+.cuerpo p {
+    background: white;
+    padding: 25px;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 150%;
+    text-align: justify;
+    color:#369;
+}
+
+.columna2 {
+    width:46%;
+    padding:2%;
+    float:left;
+}
